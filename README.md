@@ -1,0 +1,1 @@
+# mind-a.github.io
