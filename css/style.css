@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Montserrat:ital,wght@0,300;0,500;1,500&family=Nanum+Gothic&display=swap');
+.hidden {
+    display: none;
+}
+body{
+    text-align: center;
+    font-family: 'Montserrat','Nanum Gothic', sans-serif;
+}
+#weather{
+    font-family: 'Montserrat','Nanum Gothic';
+}
+#clock{
+    margin-top: 20;
+    top: -10px;
+}
+h1{
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 7px;
+    font-size: 50px;
+}
+.bgImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.65;
+}
+input{
+    font-family: 'Montserrat','Nanum Gothic';
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 10px;
+}
+input:active,
+input:focus {
+    outline: none;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+li{
+    list-style:none;
+}
